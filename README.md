@@ -53,20 +53,20 @@ git clone https://github.com/WiringPi/WiringPi<br>
 cd WiringPi<br>
 ./build<br>
 gpio -v<br>
-# Running gpio - v will result in version 2.70. If it does not appear, it indicates an installation error
+#Running gpio - v will result in version 2.70. If it does not appear, it indicates an installation error
 If the error prompt "ImportError: No module named 'wiring pi'" appears when running the python version of the example program, run the following command:<br>
-# For Python 2. x version<br>
+#For Python 2. x version<br>
 pip install wiringpi<br>
  
-# For Python 3.x version<br>
+#For Python 3.x version<br>
 pip3 install wiringpi<br>
 Note: If the installation fails, you can try the following compilation and installation:<br>
 git clone--recursive https://github.com/WiringPi/WiringPi-Python.git<br>
 Note: --recursive option can automatically pull submodules, otherwise you need to download them manually.<br>
 Go to the WiringPi-Python folder you just downloaded and enter the following command to compile and install:<br>
-# For Python 2.x version<br>
+#For Python 2.x version<br>
 sudo python setup.py install <br>
-# For Python 3.x version<br>
+#For Python 3.x version<br>
 sudo python3 setup.py install<br>
 If the following error occurs:<br>
 "Error:Building this module requires either that swig is installed<br>
